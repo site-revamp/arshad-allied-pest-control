@@ -1,0 +1,2267 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Allied Pest Control Dubai | Professional Pest Management</title>
+  <meta name="description" content="Protect your Dubai property with Allied Pest Control. Explore professional pest management services for residential and commercial properties.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://alliedpestcontrol.ae/">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:title" content="Allied Pest Control Dubai">
+  <meta property="og:description" content="Professional pest management solutions for homes and businesses across Dubai.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://alliedpestcontrol.ae/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --red: #FF3131;
+      --red-dark: #D91F2B;
+      --red-light: #FFE5E5;
+      --black: #171717;
+      --charcoal: #202020;
+      --grey: #3D3D3D;
+      --muted: #696969;
+      --white: #FFFFFF;
+      --light: #F5F5F5;
+      --border: #E2E2E2;
+      --amber: #FFB547;
+      --heading-font: "Space Grotesk", sans-serif;
+      --body-font: "Inter", sans-serif;
+      --container: 1180px;
+      --radius: 18px;
+      --shadow: 0 15px 45px rgba(0,0,0,.08);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 100px;
+    }
+
+    body {
+      font-family: var(--body-font);
+      color: var(--grey);
+      background: var(--white);
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+      object-fit: cover;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    .container {
+      width: min(var(--container), calc(100% - 44px));
+      margin: 0 auto;
+    }
+
+    .section {
+      padding: 100px 0;
+    }
+
+    .section-light {
+      background: var(--light);
+    }
+
+    .section-dark {
+      background: var(--charcoal);
+      color: var(--white);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--red-dark);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 1.8px;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 28px;
+      height: 3px;
+      background: var(--red);
+      border-radius: 4px;
+    }
+
+    .section-heading {
+      max-width: 720px;
+      margin-bottom: 48px;
+    }
+
+    .section-heading h2 {
+      font-family: var(--heading-font);
+      color: var(--black);
+      font-size: clamp(34px, 4.5vw, 52px);
+      line-height: 1.12;
+      letter-spacing: -1.8px;
+      margin-bottom: 18px;
+    }
+
+    .section-heading p {
+      color: var(--muted);
+      font-size: 17px;
+      max-width: 650px;
+    }
+
+    .section-dark .section-heading h2,
+    .section-dark h2,
+    .section-dark h3 {
+      color: var(--white);
+    }
+
+    .section-dark .section-heading p {
+      color: #C7C7C7;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 15px 23px;
+      border-radius: 7px;
+      font-weight: 800;
+      font-size: 15px;
+      transition: .25s ease;
+      cursor: pointer;
+      border: 2px solid transparent;
+    }
+
+    .btn-primary {
+      background: var(--red-dark);
+      color: var(--white);
+    }
+
+    .btn-primary:hover {
+      background: #B81722;
+      transform: translateY(-2px);
+    }
+
+    .btn-outline {
+      color: var(--black);
+      border-color: var(--border);
+      background: var(--white);
+    }
+
+    .btn-outline:hover {
+      border-color: var(--red);
+      color: var(--red-dark);
+    }
+
+    .btn-white {
+      background: var(--white);
+      color: var(--black);
+    }
+
+    .btn-white:hover {
+      background: var(--red-light);
+    }
+
+    a:focus-visible,
+    button:focus-visible {
+      outline: 3px solid var(--amber);
+      outline-offset: 4px;
+    }
+
+    /* TOP BAR */
+
+    .topbar {
+      background: var(--charcoal);
+      color: #F5F5F5;
+      font-size: 12px;
+      padding: 9px 0;
+    }
+
+    .topbar-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .topbar-info {
+      display: flex;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    .topbar a:hover {
+      color: #FF7777;
+    }
+
+    /* HEADER */
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255,255,255,.97);
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(12px);
+    }
+
+    .nav-wrap {
+      min-height: 82px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 25px;
+    }
+
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 11px;
+      flex-shrink: 0;
+    }
+
+    .logo-symbol {
+      width: 43px;
+      height: 43px;
+      background: var(--red);
+      color: white;
+      border-radius: 11px;
+      display: grid;
+      place-items: center;
+      font-family: var(--heading-font);
+      font-weight: 700;
+      font-size: 23px;
+      transform: skew(-5deg);
+    }
+
+    .logo-text strong {
+      display: block;
+      color: var(--black);
+      font-family: var(--heading-font);
+      font-size: 21px;
+      line-height: 1.1;
+      letter-spacing: -.8px;
+    }
+
+    .logo-text span {
+      color: var(--muted);
+      display: block;
+      font-size: 9px;
+      letter-spacing: 2px;
+      font-weight: 800;
+      margin-top: 4px;
+    }
+
+    .main-nav {
+      display: flex;
+      align-items: center;
+      gap: 27px;
+    }
+
+    .main-nav a {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--black);
+      transition: color .2s ease;
+    }
+
+    .main-nav a:hover {
+      color: var(--red-dark);
+    }
+
+    .nav-actions .btn {
+      padding: 12px 17px;
+      font-size: 13px;
+    }
+
+    .menu-toggle {
+      display: none;
+      width: 44px;
+      height: 44px;
+      border: 1px solid var(--border);
+      background: white;
+      border-radius: 8px;
+      font-size: 23px;
+      cursor: pointer;
+      color: var(--black);
+    }
+
+    /* HERO */
+
+    .hero {
+      padding: 75px 0 85px;
+      background:
+        radial-gradient(circle at 85% 20%, rgba(255,49,49,.07), transparent 27%),
+        #fff;
+      overflow: hidden;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.04fr .96fr;
+      align-items: center;
+      gap: 65px;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      border: 1px solid #FFD0D0;
+      background: #FFF7F7;
+      padding: 8px 13px;
+      border-radius: 30px;
+      color: var(--red-dark);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .5px;
+      margin-bottom: 25px;
+    }
+
+    .hero-label span {
+      width: 8px;
+      height: 8px;
+      background: var(--red);
+      border-radius: 50%;
+    }
+
+    .hero h1 {
+      color: var(--black);
+      font-family: var(--heading-font);
+      font-size: clamp(43px, 5.5vw, 70px);
+      letter-spacing: -3px;
+      line-height: 1.04;
+      margin-bottom: 25px;
+      max-width: 680px;
+    }
+
+    .hero h1 span {
+      color: var(--red);
+    }
+
+    .hero-description {
+      max-width: 550px;
+      color: var(--muted);
+      font-size: 17px;
+      margin-bottom: 30px;
+    }
+
+    .hero-actions {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      flex-wrap: wrap;
+    }
+
+    .hero-trust {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      flex-wrap: wrap;
+      margin-top: 34px;
+      color: var(--grey);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .hero-trust span {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+    }
+
+    .trust-check {
+      width: 19px;
+      height: 19px;
+      display: inline-grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--red-light);
+      color: var(--red-dark);
+      font-size: 12px;
+      font-weight: 900;
+      font-style: normal;
+    }
+
+    .hero-visual {
+      position: relative;
+      min-height: 500px;
+    }
+
+    .hero-photo {
+      position: absolute;
+      inset: 0 0 30px 25px;
+      width: calc(100% - 25px);
+      height: calc(100% - 30px);
+      object-fit: cover;
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+    }
+
+    .hero-photo-overlay {
+      position: absolute;
+      inset: 0 0 30px 25px;
+      border-radius: 22px;
+      background: linear-gradient(180deg, transparent 45%, rgba(0,0,0,.55));
+    }
+
+    .hero-photo-label {
+      position: absolute;
+      left: 48px;
+      bottom: 65px;
+      color: white;
+      z-index: 2;
+    }
+
+    .hero-photo-label strong {
+      display: block;
+      font-family: var(--heading-font);
+      font-size: 22px;
+    }
+
+    .hero-photo-label span {
+      font-size: 12px;
+      color: #eee;
+    }
+
+    .hero-floating-card {
+      position: absolute;
+      top: 35px;
+      left: 0;
+      background: white;
+      padding: 15px 18px;
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+      z-index: 3;
+    }
+
+    .hero-floating-card strong {
+      display: block;
+      color: var(--black);
+      font-size: 13px;
+    }
+
+    .hero-floating-card small {
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    .hero-floating-dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #1E9C62;
+      margin-right: 5px;
+    }
+
+    /* TRUST STRIP */
+
+    .trust-strip {
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      background: white;
+      padding: 25px 0;
+    }
+
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .trust-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .trust-symbol {
+      width: 43px;
+      height: 43px;
+      flex-shrink: 0;
+      display: grid;
+      place-items: center;
+      border-radius: 12px;
+      background: var(--red-light);
+      color: var(--red-dark);
+      font-size: 16px;
+      font-weight: 900;
+    }
+
+    .trust-item strong {
+      display: block;
+      color: var(--black);
+      font-size: 13px;
+    }
+
+    .trust-item small {
+      display: block;
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    /* SERVICES */
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .service-card {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      transition: .25s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-6px);
+      border-color: #FFB6B6;
+      box-shadow: var(--shadow);
+    }
+
+    .service-image {
+      height: 205px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .service-image img {
+      height: 100%;
+      transition: transform .5s ease;
+    }
+
+    .service-card:hover .service-image img {
+      transform: scale(1.06);
+    }
+
+    .service-image::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(0deg, rgba(0,0,0,.2), transparent 60%);
+    }
+
+    .service-content {
+      padding: 25px 25px 27px;
+    }
+
+    .service-icon {
+      width: 49px;
+      height: 49px;
+      display: grid;
+      place-items: center;
+      background: var(--red-light);
+      color: var(--red-dark);
+      border-radius: 12px;
+      margin-top: -50px;
+      margin-bottom: 17px;
+      position: relative;
+      z-index: 2;
+      border: 4px solid white;
+      box-sizing: content-box;
+    }
+
+    .service-icon svg {
+      width: 26px;
+      height: 26px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .service-card h3 {
+      font-family: var(--heading-font);
+      font-size: 21px;
+      color: var(--black);
+      margin-bottom: 10px;
+    }
+
+    .service-card p {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 18px;
+    }
+
+    .text-link {
+      color: var(--red-dark);
+      font-size: 13px;
+      font-weight: 800;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .text-link:hover {
+      gap: 13px;
+    }
+
+    .service-note {
+      margin-top: 30px;
+      padding: 20px 24px;
+      border-left: 4px solid var(--red);
+      background: #FFF7F7;
+      border-radius: 0 10px 10px 0;
+      font-size: 14px;
+      color: var(--grey);
+    }
+
+    /* WHY ALLIED */
+
+    .why-grid {
+      display: grid;
+      grid-template-columns: .95fr 1.05fr;
+      align-items: center;
+      gap: 70px;
+    }
+
+    .why-image-wrap {
+      position: relative;
+      min-height: 470px;
+    }
+
+    .why-image {
+      position: absolute;
+      inset: 0 25px 25px 0;
+      width: calc(100% - 25px);
+      height: calc(100% - 25px);
+      border-radius: 20px;
+      object-fit: cover;
+    }
+
+    .why-image-badge {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      background: var(--red);
+      color: white;
+      border-radius: 13px;
+      padding: 20px 23px;
+      max-width: 220px;
+      box-shadow: var(--shadow);
+    }
+
+    .why-image-badge strong {
+      display: block;
+      font-family: var(--heading-font);
+      font-size: 19px;
+    }
+
+    .why-image-badge span {
+      font-size: 11px;
+    }
+
+    .why-content h2 {
+      font-family: var(--heading-font);
+      color: var(--black);
+      font-size: clamp(34px, 4vw, 49px);
+      line-height: 1.12;
+      letter-spacing: -1.5px;
+      margin-bottom: 20px;
+    }
+
+    .why-content > p {
+      color: var(--muted);
+      font-size: 16px;
+      margin-bottom: 28px;
+    }
+
+    .benefit-list {
+      display: grid;
+      gap: 18px;
+      margin-bottom: 30px;
+    }
+
+    .benefit {
+      display: flex;
+      align-items: flex-start;
+      gap: 13px;
+    }
+
+    .benefit-mark {
+      width: 25px;
+      height: 25px;
+      flex-shrink: 0;
+      display: grid;
+      place-items: center;
+      background: var(--red-light);
+      color: var(--red-dark);
+      border-radius: 50%;
+      font-size: 13px;
+      font-weight: 900;
+      margin-top: 2px;
+    }
+
+    .benefit strong {
+      display: block;
+      color: var(--black);
+      font-size: 14px;
+      margin-bottom: 3px;
+    }
+
+    .benefit p {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    /* PROCESS */
+
+    .process-intro {
+      max-width: 700px;
+      margin-bottom: 45px;
+    }
+
+    .process-intro h2 {
+      font-family: var(--heading-font);
+      font-size: clamp(34px, 4.5vw, 50px);
+      line-height: 1.1;
+      margin-bottom: 16px;
+      letter-spacing: -1.5px;
+    }
+
+    .process-intro p {
+      color: #C7C7C7;
+      font-size: 16px;
+    }
+
+    .process-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+    }
+
+    .process-card {
+      padding: 0 0 25px;
+      border: 1px solid rgba(255,255,255,.14);
+      background: rgba(255,255,255,.045);
+      border-radius: 14px;
+      overflow: hidden;
+    }
+
+    .process-card img {
+      height: 155px;
+    }
+
+    .process-card-content {
+      padding: 22px;
+    }
+
+    .process-number {
+      font-family: var(--heading-font);
+      color: var(--red);
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      display: block;
+    }
+
+    .process-card h3 {
+      font-family: var(--heading-font);
+      font-size: 19px;
+      margin-bottom: 10px;
+    }
+
+    .process-card p {
+      font-size: 13px;
+      color: #C7C7C7;
+    }
+
+    /* PROPERTY TYPES */
+
+    .property-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 22px;
+    }
+
+    .property-card {
+      min-height: 380px;
+      border-radius: 18px;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: flex-end;
+      padding: 35px;
+      color: white;
+    }
+
+    .property-card img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      transition: transform .5s ease;
+    }
+
+    .property-card:hover img {
+      transform: scale(1.05);
+    }
+
+    .property-card::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(0deg, rgba(0,0,0,.83), rgba(0,0,0,.08));
+      z-index: 1;
+    }
+
+    .property-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .property-content h3 {
+      font-family: var(--heading-font);
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: white;
+    }
+
+    .property-content p {
+      color: #eee;
+      font-size: 14px;
+      max-width: 430px;
+      margin-bottom: 17px;
+    }
+
+    .property-content .text-link {
+      color: white;
+    }
+
+    /* SERVICE AREAS */
+
+    .areas-layout {
+      display: grid;
+      grid-template-columns: .85fr 1.15fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .areas-content h2 {
+      font-family: var(--heading-font);
+      font-size: clamp(34px, 4vw, 47px);
+      color: var(--black);
+      line-height: 1.12;
+      letter-spacing: -1.4px;
+      margin-bottom: 20px;
+    }
+
+    .areas-content p {
+      color: var(--muted);
+      font-size: 15px;
+      margin-bottom: 25px;
+    }
+
+    .areas-panel {
+      padding: 30px;
+      border-radius: 18px;
+      background: white;
+      border: 1px solid var(--border);
+    }
+
+    .areas-panel h3 {
+      color: var(--black);
+      font-family: var(--heading-font);
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .area-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .area-tags span {
+      padding: 9px 13px;
+      border: 1px solid #E0E0E0;
+      background: var(--light);
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--grey);
+    }
+
+    /* GUARANTEE */
+
+    .guarantee-panel {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 35px;
+      background: var(--red);
+      padding: 48px;
+      border-radius: 20px;
+      color: white;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .guarantee-panel h2 {
+      font-family: var(--heading-font);
+      font-size: clamp(30px, 4vw, 43px);
+      line-height: 1.12;
+      margin-bottom: 13px;
+      color: white;
+      position: relative;
+      z-index: 1;
+    }
+
+    .guarantee-panel p {
+      color: rgba(255,255,255,.9);
+      max-width: 650px;
+      font-size: 15px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .guarantee-number {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      min-width: 160px;
+    }
+
+    .guarantee-number strong {
+      display: block;
+      font-family: var(--heading-font);
+      font-size: 66px;
+      line-height: 1;
+    }
+
+    .guarantee-number span {
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    /* FAQ */
+
+    .faq-layout {
+      display: grid;
+      grid-template-columns: .75fr 1.25fr;
+      gap: 60px;
+    }
+
+    .faq-intro h2 {
+      font-family: var(--heading-font);
+      color: var(--black);
+      font-size: clamp(34px, 4vw, 46px);
+      line-height: 1.12;
+      letter-spacing: -1.5px;
+      margin-bottom: 18px;
+    }
+
+    .faq-intro p {
+      color: var(--muted);
+      font-size: 15px;
+      margin-bottom: 24px;
+    }
+
+    .faq-list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .faq-item {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      background: white;
+    }
+
+    .faq-question {
+      width: 100%;
+      border: 0;
+      background: white;
+      text-align: left;
+      padding: 19px 21px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      color: var(--black);
+      font-size: 14px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .faq-question span:last-child {
+      color: var(--red-dark);
+      font-size: 22px;
+      transition: transform .2s ease;
+    }
+
+    .faq-answer {
+      display: none;
+      padding: 0 21px 20px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .faq-item.active .faq-answer {
+      display: block;
+    }
+
+    .faq-item.active .faq-question span:last-child {
+      transform: rotate(45deg);
+    }
+
+    /* FINAL CTA */
+
+    .final-cta {
+      padding: 80px 0;
+      background: var(--charcoal);
+      color: white;
+      text-align: center;
+    }
+
+    .final-cta h2 {
+      color: white;
+      font-family: var(--heading-font);
+      font-size: clamp(35px, 4.5vw, 52px);
+      line-height: 1.1;
+      letter-spacing: -1.5px;
+      max-width: 760px;
+      margin: 0 auto 18px;
+    }
+
+    .final-cta p {
+      color: #C7C7C7;
+      max-width: 650px;
+      margin: 0 auto 28px;
+      font-size: 15px;
+    }
+
+    .final-cta .btn {
+      margin: 5px;
+    }
+
+    /* FOOTER */
+
+    .footer {
+      background: #151515;
+      color: white;
+      padding: 65px 0 25px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.3fr .8fr .9fr 1fr;
+      gap: 45px;
+      padding-bottom: 45px;
+    }
+
+    .footer .logo-text strong {
+      color: white;
+    }
+
+    .footer .logo-text span {
+      color: #B7B7B7;
+    }
+
+    .footer-about p {
+      color: #BDBDBD;
+      font-size: 13px;
+      margin-top: 20px;
+      max-width: 320px;
+    }
+
+    .footer h3 {
+      color: white;
+      font-family: var(--heading-font);
+      font-size: 16px;
+      margin-bottom: 18px;
+    }
+
+    .footer-links {
+      display: grid;
+      gap: 11px;
+    }
+
+    .footer-links a,
+    .footer-links p {
+      color: #BDBDBD;
+      font-size: 12px;
+      transition: color .2s ease;
+      overflow-wrap: anywhere;
+    }
+
+    .footer-links a:hover {
+      color: #FF7777;
+    }
+
+    .footer-bottom {
+      padding-top: 22px;
+      border-top: 1px solid #383838;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+      color: #AFAFAF;
+      font-size: 11px;
+    }
+
+    /* MOBILE STICKY CTA */
+
+    .mobile-cta {
+      display: none;
+    }
+
+    /* RESPONSIVE */
+
+    @media (max-width: 1050px) {
+      .main-nav {
+        gap: 15px;
+      }
+
+      .main-nav a {
+        font-size: 12px;
+      }
+
+      .hero-grid {
+        gap: 35px;
+      }
+
+      .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 800px) {
+      .section {
+        padding: 75px 0;
+      }
+
+      .topbar-inner {
+        justify-content: center;
+      }
+
+      .topbar-info {
+        justify-content: center;
+        gap: 12px 20px;
+      }
+
+      .topbar-note {
+        display: none;
+      }
+
+      .nav-wrap {
+        min-height: 72px;
+      }
+
+      .menu-toggle {
+        display: block;
+      }
+
+      .main-nav {
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 72px;
+        background: white;
+        padding: 20px 25px 25px;
+        border-bottom: 1px solid var(--border);
+        box-shadow: 0 15px 25px rgba(0,0,0,.07);
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 17px;
+      }
+
+      .main-nav.open {
+        display: flex;
+      }
+
+      .nav-actions .btn {
+        display: none;
+      }
+
+      .hero {
+        padding: 60px 0 65px;
+      }
+
+      .hero-grid,
+      .why-grid,
+      .areas-layout,
+      .faq-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-grid {
+        gap: 35px;
+      }
+
+      .hero-visual {
+        min-height: 430px;
+      }
+
+      .trust-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .process-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .why-grid,
+      .areas-layout,
+      .faq-layout {
+        gap: 35px;
+      }
+
+      .why-image-wrap {
+        min-height: 400px;
+      }
+
+      .guarantee-panel {
+        padding: 35px;
+      }
+    }
+
+    @media (max-width: 560px) {
+      body {
+        padding-bottom: 70px;
+      }
+
+      .container {
+        width: min(100% - 32px, var(--container));
+      }
+
+      .section {
+        padding: 62px 0;
+      }
+
+      .section-heading {
+        margin-bottom: 32px;
+      }
+
+      .section-heading h2 {
+        font-size: 35px;
+        letter-spacing: -1.2px;
+      }
+
+      .section-heading p {
+        font-size: 15px;
+      }
+
+      .logo-symbol {
+        width: 39px;
+        height: 39px;
+      }
+
+      .logo-text strong {
+        font-size: 18px;
+      }
+
+      .hero {
+        padding: 48px 0 50px;
+      }
+
+      .hero h1 {
+        font-size: 45px;
+        letter-spacing: -2px;
+      }
+
+      .hero-description {
+        font-size: 15px;
+      }
+
+      .hero-actions {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .hero-actions .btn {
+        width: 100%;
+      }
+
+      .hero-trust {
+        gap: 12px;
+      }
+
+      .hero-visual {
+        min-height: 335px;
+      }
+
+      .hero-photo,
+      .hero-photo-overlay {
+        inset: 0 0 20px 12px;
+        width: calc(100% - 12px);
+        height: calc(100% - 20px);
+      }
+
+      .hero-photo-label {
+        left: 30px;
+        bottom: 45px;
+      }
+
+      .hero-floating-card {
+        top: 20px;
+        left: 0;
+        padding: 12px;
+      }
+
+      .trust-grid {
+        gap: 20px 10px;
+      }
+
+      .trust-item {
+        justify-content: flex-start;
+      }
+
+      .trust-symbol {
+        width: 36px;
+        height: 36px;
+      }
+
+      .trust-item strong {
+        font-size: 11px;
+      }
+
+      .trust-item small {
+        font-size: 10px;
+      }
+
+      .services-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .service-image {
+        height: 220px;
+      }
+
+      .why-image-wrap {
+        min-height: 345px;
+      }
+
+      .why-image {
+        inset: 0 15px 20px 0;
+        width: calc(100% - 15px);
+        height: calc(100% - 20px);
+      }
+
+      .process-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .property-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .property-card {
+        min-height: 300px;
+        padding: 25px;
+      }
+
+      .areas-panel {
+        padding: 22px;
+      }
+
+      .guarantee-panel {
+        grid-template-columns: 1fr;
+        padding: 30px 24px;
+        gap: 25px;
+      }
+
+      .guarantee-number {
+        text-align: left;
+      }
+
+      .guarantee-number strong {
+        font-size: 54px;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .mobile-cta {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 9px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 2000;
+        padding: 10px 12px;
+        background: white;
+        border-top: 1px solid var(--border);
+        box-shadow: 0 -5px 20px rgba(0,0,0,.08);
+      }
+
+      .mobile-cta a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 46px;
+        border-radius: 7px;
+        font-size: 13px;
+        font-weight: 800;
+      }
+
+      .mobile-call {
+        color: white;
+        background: var(--red-dark);
+      }
+
+      .mobile-whatsapp {
+        color: white;
+        background: #168B55;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        transition-duration: .01ms !important;
+        animation-duration: .01ms !important;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "PestControl",
+    "name": "Allied Pest Control",
+    "url": "https://alliedpestcontrol.ae/",
+    "telephone": "+971561918732",
+    "email": "info@alliedpestcontrol.ae",
+    "areaServed": {
+      "@type": "City",
+      "name": "Dubai"
+    },
+    "description": "Pest management services for residential and commercial properties in Dubai."
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-info">
+        <span>Dubai, United Arab Emirates</span>
+        <a href="tel:+971561918732">+971 56 191 8732</a>
+        <a href="mailto:info@alliedpestcontrol.ae">info@alliedpestcontrol.ae</a>
+      </div>
+      <span class="topbar-note">Professional pest management for Dubai properties</span>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+
+      <a href="#home" class="logo" aria-label="Allied Pest Control homepage">
+        <span class="logo-symbol">A</span>
+        <span class="logo-text">
+          <strong>ALLIED</strong>
+          <span>PEST CONTROL</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">Why Allied</a>
+        <a href="#process">Our Process</a>
+        <a href="#areas">Areas</a>
+        <a href="#faq">FAQs</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="btn btn-primary" href="tel:+971561918732">Call Our Team</a>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">
+        ☰
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+
+        <div class="hero-content">
+          <div class="hero-label">
+            <span></span>
+            PEST MANAGEMENT IN DUBAI
+          </div>
+
+          <h1>
+            Protect Your Property.
+            <span>Take Control</span> of Pests.
+          </h1>
+
+          <p class="hero-description">
+            From unwanted insects to persistent pest problems, Allied Pest Control provides property-focused pest management solutions for homes and businesses across Dubai.
+          </p>
+
+          <div class="hero-actions">
+            <a href="https://wa.me/971561918732" class="btn btn-primary" target="_blank" rel="noopener">
+              Request a Consultation →
+            </a>
+            <a href="#services" class="btn btn-outline">
+              Explore Our Services
+            </a>
+          </div>
+
+          <div class="hero-trust">
+            <span><i class="trust-check">✓</i> Residential & Commercial</span>
+            <span><i class="trust-check">✓</i> Inspection-led Approach</span>
+            <span><i class="trust-check">✓</i> Dubai Coverage</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <img
+            class="hero-photo"
+            src="https://images.pexels.com/photos/4176228/pexels-photo-4176228.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            alt="Pest control technician carrying out an indoor treatment"
+            fetchpriority="high"
+          >
+
+          <div class="hero-photo-overlay"></div>
+
+          <div class="hero-photo-label">
+            <strong>Professional Pest Management</strong>
+            <span>Property-focused solutions in Dubai</span>
+          </div>
+
+          <div class="hero-floating-card">
+            <strong><span class="hero-floating-dot"></span> Property-focused care</strong>
+            <small>Solutions based on inspection</small>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TRUST STRIP -->
+    <section class="trust-strip" aria-label="Service highlights">
+      <div class="container trust-grid">
+
+        <div class="trust-item">
+          <div class="trust-symbol">01</div>
+          <div>
+            <strong>Inspection-led</strong>
+            <small>Understand the issue</small>
+          </div>
+        </div>
+
+        <div class="trust-item">
+          <div class="trust-symbol">02</div>
+          <div>
+            <strong>Targeted Solutions</strong>
+            <small>Property-specific approach</small>
+          </div>
+        </div>
+
+        <div class="trust-item">
+          <div class="trust-symbol">03</div>
+          <div>
+            <strong>Follow-up Care</strong>
+            <small>Ongoing attention</small>
+          </div>
+        </div>
+
+        <div class="trust-item">
+          <div class="trust-symbol">04</div>
+          <div>
+            <strong>Dubai Coverage</strong>
+            <small>Residential and commercial</small>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="eyebrow">OUR SERVICES</span>
+          <h2>Effective Pest Management Starts With the Right Solution.</h2>
+          <p>
+            Different pests require different approaches. Explore our pest management services and find the support that best matches your property.
+          </p>
+        </div>
+
+        <div class="services-grid">
+
+          <article class="service-card">
+            <div class="service-image">
+              <img
+                src="https://images.pexels.com/photos/19789800/pexels-photo-19789800.jpeg?auto=compress&cs=tinysrgb&w=900"
+                alt="Pest management technician treating an indoor area"
+                loading="lazy"
+              >
+            </div>
+            <div class="service-content">
+              <div class="service-icon">
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <path d="M24 7v34M15 12l9 8 9-8M14 24h20M15 36l9-8 9 8"/>
+                  <path d="M9 17l5 7-5 7M39 17l-5 7 5 7"/>
+                  <circle cx="24" cy="24" r="5"/>
+                </svg>
+              </div>
+              <h3>Cockroach Control</h3>
+              <p>Targeted management for cockroach activity in kitchens, bathrooms, service areas and other parts of your property.</p>
+              <a href="https://wa.me/971561918732" class="text-link" target="_blank" rel="noopener">Enquire about this service →</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-image">
+              <img
+                src="https://images.pexels.com/photos/4176228/pexels-photo-4176228.jpeg?auto=compress&cs=tinysrgb&w=900"
+                alt="Technician carrying out a pest treatment inside a property"
+                loading="lazy"
+              >
+            </div>
+            <div class="service-content">
+              <div class="service-icon">
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <rect x="9" y="9" width="30" height="30" rx="8"/>
+                  <path d="M17 18h14M17 24h14M17 30h8"/>
+                  <circle cx="34" cy="34" r="5"/>
+                  <path d="M34 31v6M31 34h6"/>
+                </svg>
+              </div>
+              <h3>Bed Bug Treatment</h3>
+              <p>Property-focused treatment planning for bed bug concerns, with attention to affected rooms and surrounding areas.</p>
+              <a href="https://wa.me/971561918732" class="text-link" target="_blank" rel="noopener">Enquire about this service →</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-image">
+              <img
+                src="https://images.pexels.com/photos/19789799/pexels-photo-19789799.jpeg?auto=compress&cs=tinysrgb&w=900"
+                alt="Pest control professional inspecting an outdoor property"
+                loading="lazy"
+              >
+            </div>
+            <div class="service-content">
+              <div class="service-icon">
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <path d="M24 6l15 7v10c0 10-6 16-15 19C15 39 9 33 9 23V13z"/>
+                  <path d="M17 24l5 5 10-11"/>
+                </svg>
+              </div>
+              <h3>Termite Protection</h3>
+              <p>Termite management solutions designed to help protect buildings, structures and vulnerable property areas.</p>
+              <a href="https://wa.me/971561918732" class="text-link" target="_blank" rel="noopener">Enquire about this service →</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-image">
+              <img
+                src="https://images.pexels.com/photos/19789837/pexels-photo-19789837.jpeg?auto=compress&cs=tinysrgb&w=900"
+                alt="Pest control worker carrying out outdoor pest management"
+                loading="lazy"
+              >
+            </div>
+            <div class="service-content">
+              <div class="service-icon">
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <path d="M24 8v8M24 32v8M8 24h8M32 24h8"/>
+                  <circle cx="24" cy="24" r="9"/>
+                  <path d="M18 18l-5-5M30 18l5-5M18 30l-5 5M30 30l5 5"/>
+                </svg>
+              </div>
+              <h3>Ant Control</h3>
+              <p>Solutions for ant activity around entry points, food storage spaces, kitchens and other affected areas.</p>
+              <a href="https://wa.me/971561918732" class="text-link" target="_blank" rel="noopener">Enquire about this service →</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-image">
+              <img
+                src="https://images.pexels.com/photos/19789841/pexels-photo-19789841.jpeg?auto=compress&cs=tinysrgb&w=900"
+                alt="Outdoor pest management treatment near a property"
+                loading="lazy"
+              >
+            </div>
+            <div class="service-content">
+              <div class="service-icon">
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <path d="M8 19h32v19H8z"/>
+                  <path d="M15 19v-5h18v5M15 28h18M15 33h18"/>
+                  <path d="M11 10l4 4M37 10l-4 4"/>
+                  <circle cx="24" cy="28" r="3"/>
+                </svg>
+              </div>
+              <h3>Rodent Control & Proofing</h3>
+              <p>Rodent management and proofing support to address activity and help reduce access to vulnerable spaces.</p>
+              <a href="https://wa.me/971561918732" class="text-link" target="_blank" rel="noopener">Enquire about this service →</a>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-image">
+              <img
+                src="https://images.pexels.com/photos/19789841/pexels-photo-19789841.jpeg?auto=compress&cs=tinysrgb&w=900"
+                alt="Pest management professional working outdoors"
+                loading="lazy"
+              >
+            </div>
+            <div class="service-content">
+              <div class="service-icon">
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                  <path d="M24 7v34M7 24h34"/>
+                  <path d="M14 14l20 20M34 14L14 34"/>
+                  <circle cx="24" cy="24" r="15"/>
+                </svg>
+              </div>
+              <h3>Mosquito & Fly Control</h3>
+              <p>Management solutions for flying insects, with attention to activity areas and property conditions.</p>
+              <a href="https://wa.me/971561918732" class="text-link" target="_blank" rel="noopener">Enquire about this service →</a>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="service-note">
+          <strong>Additional services:</strong> Bird proofing and netting, spider and lizard control, and other pest management requirements. Contact our team to discuss your property.
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WHY ALLIED -->
+    <section class="section section-light" id="about">
+      <div class="container why-grid">
+
+        <div class="why-image-wrap">
+          <img
+            class="why-image"
+            src="https://images.pexels.com/photos/19789800/pexels-photo-19789800.jpeg?auto=compress&cs=tinysrgb&w=1100"
+            alt="Pest control technician carrying out a property treatment"
+            loading="lazy"
+          >
+
+          <div class="why-image-badge">
+            <strong>Property-focused care</strong>
+            <span>A considered approach to pest management</span>
+          </div>
+        </div>
+
+        <div class="why-content">
+          <span class="eyebrow">WHY ALLIED PEST CONTROL</span>
+
+          <h2>Not Every Property Has the Same Pest Problem.</h2>
+
+          <p>
+            Building layouts, surrounding environments and pest activity can all influence the right management approach. Allied focuses on understanding the property and the issue before planning a suitable response.
+          </p>
+
+          <div class="benefit-list">
+
+            <div class="benefit">
+              <span class="benefit-mark">✓</span>
+              <div>
+                <strong>Property-specific assessment</strong>
+                <p>Consider the affected areas, property conditions and reported pest activity.</p>
+              </div>
+            </div>
+
+            <div class="benefit">
+              <span class="benefit-mark">✓</span>
+              <div>
+                <strong>Targeted treatment planning</strong>
+                <p>Choose an appropriate approach based on the pest concern and site requirements.</p>
+              </div>
+            </div>
+
+            <div class="benefit">
+              <span class="benefit-mark">✓</span>
+              <div>
+                <strong>Professional service approach</strong>
+                <p>Clear communication about the service, preparation and relevant precautions.</p>
+              </div>
+            </div>
+
+            <div class="benefit">
+              <span class="benefit-mark">✓</span>
+              <div>
+                <strong>Follow-up recommendations</strong>
+                <p>Practical guidance to help support ongoing property protection.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <a href="https://wa.me/971561918732" class="btn btn-primary" target="_blank" rel="noopener">
+            Discuss Your Pest Problem →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section section-dark" id="process">
+      <div class="container">
+
+        <div class="process-intro">
+          <span class="eyebrow">HOW WE WORK</span>
+          <h2>A Clear Process. A More Focused Response.</h2>
+          <p>
+            Our service approach is built around understanding the property, identifying the pest concern and planning the next steps with the customer.
+          </p>
+        </div>
+
+        <div class="process-grid">
+
+          <article class="process-card">
+            <img
+              src="https://images.pexels.com/photos/19789799/pexels-photo-19789799.jpeg?auto=compress&cs=tinysrgb&w=700"
+              alt="Technician inspecting an outdoor property"
+              loading="lazy"
+            >
+            <div class="process-card-content">
+              <span class="process-number">01</span>
+              <h3>Understand</h3>
+              <p>Tell us about the pest concern, affected areas and type of property.</p>
+            </div>
+          </article>
+
+          <article class="process-card">
+            <img
+              src="https://images.pexels.com/photos/4176228/pexels-photo-4176228.jpeg?auto=compress&cs=tinysrgb&w=700"
+              alt="Technician assessing an indoor property"
+              loading="lazy"
+            >
+            <div class="process-card-content">
+              <span class="process-number">02</span>
+              <h3>Inspect</h3>
+              <p>Assess relevant conditions and identify the areas requiring attention.</p>
+            </div>
+          </article>
+
+          <article class="process-card">
+            <img
+              src="https://images.pexels.com/photos/19789800/pexels-photo-19789800.jpeg?auto=compress&cs=tinysrgb&w=700"
+              alt="Pest management technician performing treatment"
+              loading="lazy"
+            >
+            <div class="process-card-content">
+              <span class="process-number">03</span>
+              <h3>Treat</h3>
+              <p>Plan and carry out an appropriate treatment based on the assessment.</p>
+            </div>
+          </article>
+
+          <article class="process-card">
+            <img
+              src="https://images.pexels.com/photos/19789837/pexels-photo-19789837.jpeg?auto=compress&cs=tinysrgb&w=700"
+              alt="Pest control professional working around a property"
+              loading="lazy"
+            >
+            <div class="process-card-content">
+              <span class="process-number">04</span>
+              <h3>Support</h3>
+              <p>Provide relevant recommendations and follow-up guidance where required.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROPERTY TYPES -->
+    <section class="section" id="property-types">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="eyebrow">WHO WE HELP</span>
+          <h2>Pest Management for Different Property Needs.</h2>
+          <p>
+            From everyday household concerns to larger commercial environments, our services are designed around the requirements of each property.
+          </p>
+        </div>
+
+        <div class="property-grid">
+
+          <article class="property-card">
+            <img
+              src="https://images.pexels.com/photos/4176228/pexels-photo-4176228.jpeg?auto=compress&cs=tinysrgb&w=1100"
+              alt="Indoor pest control service in a residential property"
+              loading="lazy"
+            >
+            <div class="property-content">
+              <h3>Residential Pest Control</h3>
+              <p>
+                Pest management support for apartments, villas and family homes across Dubai.
+              </p>
+              <a href="https://wa.me/971561918732" class="text-link" target="_blank" rel="noopener">
+                Get residential support →
+              </a>
+            </div>
+          </article>
+
+          <article class="property-card">
+            <img
+              src="https://images.pexels.com/photos/19789837/pexels-photo-19789837.jpeg?auto=compress&cs=tinysrgb&w=1100"
+              alt="Professional pest control work around a commercial property"
+              loading="lazy"
+            >
+            <div class="property-content">
+              <h3>Commercial Pest Control</h3>
+              <p>
+                Property-focused pest management for workplaces and commercial premises.
+              </p>
+              <a href="https://wa.me/971561918732" class="text-link" target="_blank" rel="noopener">
+                Discuss commercial requirements →
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SERVICE AREAS -->
+    <section class="section section-light" id="areas">
+      <div class="container areas-layout">
+
+        <div class="areas-content">
+          <span class="eyebrow">LOCAL COVERAGE</span>
+          <h2>Supporting Properties Across Dubai.</h2>
+          <p>
+            Allied Pest Control serves customers across a range of Dubai communities and locations. Contact our team to confirm availability for your property.
+          </p>
+          <a href="tel:+971561918732" class="btn btn-primary">Check Service Availability →</a>
+        </div>
+
+        <div class="areas-panel">
+          <h3>Areas We Serve</h3>
+          <div class="area-tags">
+            <span>Business Bay</span>
+            <span>Dubai Marina</span>
+            <span>Jumeirah</span>
+            <span>Mirdif</span>
+            <span>Al Quoz</span>
+            <span>Al Warqa</span>
+            <span>Arabian Ranches</span>
+            <span>DAMAC Hills</span>
+            <span>Mudon</span>
+            <span>Dubai Creek Harbour</span>
+            <span>Dubai Festival City</span>
+            <span>Nad Al Sheba</span>
+            <span>Al Mizhar</span>
+            <span>Umm Suqeim</span>
+            <span>The Villa</span>
+            <span>International City</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- GUARANTEE -->
+    <section class="section">
+      <div class="container">
+        <div class="guarantee-panel">
+
+          <div>
+            <span class="eyebrow" style="color:#fff;">CUSTOMER CONFIDENCE</span>
+            <h2>More Confidence in Your Property Protection.</h2>
+            <p>
+              Allied's website advertises a 90-day pest-free guarantee. Ask our team about the applicable service conditions, coverage and eligibility for your treatment.
+            </p>
+          </div>
+
+          <div class="guarantee-number">
+            <strong>90</strong>
+            <span>Day Guarantee*</span>
+          </div>
+
+        </div>
+
+        <p style="font-size:11px;color:#777;margin-top:12px;">
+          *As advertised by Allied Pest Control. Terms, conditions and eligibility should be confirmed directly with the company.
+        </p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-light" id="faq">
+      <div class="container faq-layout">
+
+        <div class="faq-intro">
+          <span class="eyebrow">COMMON QUESTIONS</span>
+          <h2>Helpful Answers Before You Book.</h2>
+          <p>
+            Have a question about pest management for your home or business? Here are some useful starting points.
+          </p>
+          <a href="https://wa.me/971561918732" class="btn btn-primary" target="_blank" rel="noopener">
+            Ask Our Team →
+          </a>
+        </div>
+
+        <div class="faq-list">
+
+          <div class="faq-item active">
+            <button class="faq-question" aria-expanded="true">
+              <span>What pest control services does Allied provide?</span>
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              Allied lists services including cockroach control, bed bug treatment, termite protection, ant control, rodent management, mosquito and fly control, bird proofing and other pest management services.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Does Allied provide residential and commercial pest control?</span>
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              Allied provides pest management services for residential and commercial property requirements. Contact the team to discuss your property type and the issue you are experiencing.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Does Allied serve areas outside central Dubai?</span>
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              Allied lists several Dubai communities and locations. Contact the team to confirm whether your exact location is covered and to check appointment availability.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>How do I request a pest control service?</span>
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              You can contact Allied by phone or WhatsApp. Share your location, property type and the pest issue so the team can advise on the next steps.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Does Allied advertise a treatment guarantee?</span>
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              Allied's website advertises a 90-day pest-free guarantee. Ask the company directly about the terms, service coverage and eligibility for your particular treatment.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>What should I do before a pest treatment?</span>
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              Preparation depends on the pest, treatment method and property. Follow the specific instructions provided by the service team before and after treatment.
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="final-cta">
+      <div class="container">
+        <span class="eyebrow" style="color:#FF7777;">TAKE THE NEXT STEP</span>
+        <h2>Let's Find the Right Pest Management Solution for Your Property.</h2>
+        <p>
+          Tell Allied about your pest concern and property location. The team can help you understand the available service options.
+        </p>
+
+        <a href="tel:+971561918732" class="btn btn-primary">
+          Call +971 56 191 8732
+        </a>
+
+        <a href="https://wa.me/971561918732" class="btn btn-white" target="_blank" rel="noopener">
+          WhatsApp Our Team
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <div class="footer-about">
+          <a href="#home" class="logo">
+            <span class="logo-symbol">A</span>
+            <span class="logo-text">
+              <strong>ALLIED</strong>
+              <span>PEST CONTROL</span>
+            </span>
+          </a>
+
+          <p>
+            Property-focused pest management services for residential and commercial customers across Dubai, UAE.
+          </p>
+        </div>
+
+        <div>
+          <h3>Explore</h3>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#services">Our Services</a>
+            <a href="#about">Why Allied</a>
+            <a href="#process">Our Process</a>
+            <a href="#areas">Service Areas</a>
+            <a href="#faq">FAQs</a>
+          </div>
+        </div>
+
+        <div>
+          <h3>Our Services</h3>
+          <div class="footer-links">
+            <a href="#services">Cockroach Control</a>
+            <a href="#services">Bed Bug Treatment</a>
+            <a href="#services">Termite Protection</a>
+            <a href="#services">Ant Control</a>
+            <a href="#services">Rodent Control</a>
+            <a href="#services">Mosquito & Fly Control</a>
+          </div>
+        </div>
+
+        <div>
+          <h3>Contact Us</h3>
+          <div class="footer-links">
+            <a href="tel:+971561918732">+971 56 191 8732</a>
+            <a href="mailto:info@alliedpestcontrol.ae">info@alliedpestcontrol.ae</a>
+            <p>Dubai, United Arab Emirates</p>
+            <a href="https://wa.me/971561918732" target="_blank" rel="noopener">Contact on WhatsApp →</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span id="currentYear"></span> Allied Pest Control. All rights reserved.</span>
+        <span>Professional Pest Management | Dubai, UAE</span>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- MOBILE STICKY CTA: EXACTLY TWO BUTTONS -->
+  <div class="mobile-cta" aria-label="Quick contact options">
+    <a class="mobile-call" href="tel:+971561918732">Call Now</a>
+    <a class="mobile-whatsapp" href="https://wa.me/971561918732" target="_blank" rel="noopener">WhatsApp</a>
+  </div>
+
+  <script>
+    // Mobile navigation
+    const menuToggle = document.getElementById("menuToggle");
+    const mainNav = document.getElementById("mainNav");
+
+    menuToggle.addEventListener("click", function () {
+      const isOpen = mainNav.classList.toggle("open");
+      menuToggle.setAttribute("aria-expanded", String(isOpen));
+      menuToggle.textContent = isOpen ? "×" : "☰";
+    });
+
+    // Close mobile menu after selecting a link
+    document.querySelectorAll(".main-nav a").forEach(function (link) {
+      link.addEventListener("click", function () {
+        mainNav.classList.remove("open");
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.textContent = "☰";
+      });
+    });
+
+    // FAQ accordion
+    document.querySelectorAll(".faq-question").forEach(function (button) {
+      button.addEventListener("click", function () {
+        const item = button.closest(".faq-item");
+        const isActive = item.classList.contains("active");
+
+        document.querySelectorAll(".faq-item").forEach(function (faq) {
+          faq.classList.remove("active");
+          faq.querySelector(".faq-question").setAttribute("aria-expanded", "false");
+        });
+
+        if (!isActive) {
+          item.classList.add("active");
+          button.setAttribute("aria-expanded", "true");
+        }
+      });
+    });
+
+    // Current year
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
